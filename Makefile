@@ -5,4 +5,5 @@ Person.o: Person.h Person.cpp
 lab2.o: lab2.cpp Person.h
 	g++ -c lab2.cpp
 
-clean: rm lab2 *.o
+clean: 
+	rm lab2 *.o

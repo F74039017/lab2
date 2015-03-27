@@ -1,0 +1,2 @@
+Just use "make" to compile the source code.
+"make clean" can clean all .o and the executive file.
