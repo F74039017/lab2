@@ -22,7 +22,7 @@ int main()
 		person.setHeight(height);
 		person.setWeight(weight);
 		person.cal_BMI();
-		outfile <<  setprecision(4) << setw(6) << left <<  person.getBMI() << "  " << right <<  person.result() << endl;	
+		outfile <<  setprecision(4) <<  person.getBMI() << "\t"  << person.result() << endl;	
 	}
 	return 0;
 }
